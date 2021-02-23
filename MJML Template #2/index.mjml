@@ -1,0 +1,174 @@
+<mjml>
+  <mj-head>
+    <mj-title>Teaser J-1</mj-title>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-section padding="0"/>
+			<mj-all font-family="Verdana, sans-serif"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      ul{
+        Margin-left: 25px;
+        Margin-top: 0px;
+        padding-left: 0;
+      }
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 600px) {
+      	body{
+      		width:100% !important; 
+      		min-width:100% !important;
+      	}
+				img{
+					max-width:100%;
+				}
+        ul{
+      	  padding: 0 15px !important;
+        }	
+        li {text-align:-webkit-match-parent; display:list-item;}
+      	.hide { 
+      		display: none !important;
+      	}
+    
+      }
+    </mj-style>
+    <!--[if gte mso 9]>
+    <style type="text/css">
+        li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}
+    </style>
+    <![endif]-->
+  </mj-head>
+  <mj-body>
+    <mj-section>
+    	<mj-column padding="0">
+      <mj-image src="https://via.placeholder.com/600x260.jpg?text=Header"
+                alt="Header"
+                width="600px"
+                height="auto"
+                align="center"
+                padding="0">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+   <mj-section background-color="#fff" border="30px solid #e3e3e3" border-bottom="none">
+    <mj-column width="90%" background-color="#fff">
+      <mj-text font-family="Verdana"
+               font-size="17px"
+               font-weight="bold"
+               align="center"
+               color="#e4032e"
+               padding="30px">
+      Title
+      </mj-text>
+      </mj-column>
+    </mj-section>
+   <mj-section background-color="#fff" border="30px solid #e3e3e3" border-bottom="none" border-top="none">
+    <mj-column padding-bottom="20px">
+     <mj-image src="https://via.placeholder.com/236x180.jpg"
+               width="236px"
+               height="auto"
+               alt="L'Aparté"
+               align="center"
+               padding="10px 0">
+      </mj-image>
+     </mj-column>
+    <mj-column padding-bottom="20px">
+     <mj-text font-family="Verdana"
+              font-size="16px"
+              font-weight="bold"
+              color="#b3b3b3"
+              align="left"
+             padding-left="15px"
+              line-height="16px">Title 1
+      </mj-text>
+      <mj-text font-family="Verdana"
+              font-size="13px"
+              color="#5d5d5d"
+              align="left"
+               height="103px"
+               padding-top="0"
+                padding-left="15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </mj-text>
+     </mj-column>
+    </mj-section>
+   <mj-section background-color="#fff" border="30px solid #e3e3e3" border-bottom="none" border-top="none">
+    <mj-column padding-bottom="20px">
+     <mj-image src="https://via.placeholder.com/236x180.jpg"
+               width="236px"
+               height="auto"
+               alt="Total Lubrifiants Services Automobile"
+               align="center"
+               padding="10px 0">
+      </mj-image>
+     </mj-column>
+    <mj-column padding-bottom="20px">
+     <mj-text font-family="Verdana"
+              font-size="16px"
+              font-weight="bold"
+              color="#ff931e"
+              align="left"
+              padding-left="15px"
+               line-height="16px">Title 2
+      </mj-text>
+      <mj-text font-family="Verdana"
+              font-size="13px"
+              color="#5d5d5d"
+              align="left"
+               height="87px"
+               padding-top="0"
+               padding-left="15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d
+      </mj-text>
+     </mj-column>
+    </mj-section>
+   <mj-section background-color="#fff" border="30px solid #e3e3e3" border-bottom="none" border-top="none">
+    <mj-column padding-bottom="20px">
+     <mj-image src="https://via.placeholder.com/236x180.jpg"
+               width="236px"
+               height="auto"
+               alt="Stedis"
+               align="center"
+               padding="10px 0">
+      </mj-image>
+     </mj-column>
+    <mj-column padding-bottom="20px">
+     <mj-text font-family="Verdana"
+              font-size="16px"
+              font-weight="bold"
+              color="#3fa9f5"
+              align="left"
+              padding-left="15px"
+              line-height="16px">Title 3
+      </mj-text>
+      <mj-text font-family="Verdana"
+              font-size="13px"
+              color="#5d5d5d"
+              align="left"
+               height="100px"
+               padding-top="0"
+               padding-left="15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
+      </mj-text>
+     </mj-column>
+    </mj-section>
+<mj-section background-color="#fff" border="30px solid #e3e3e3" border-bottom="none" border-top="none">
+    <mj-column padding-top="20px">
+     <mj-text font-family="Verdana"
+              font-size="20px"
+              font-weight="bold"
+              color="#e0032e"
+              align="center"
+              line-height="1">COMMENT, SHARE & LIKE !</mj-text>
+      <mj-image src="https://via.placeholder.com/222x80.jpg"
+                alt="Commentez. Likez. Partagez."
+                width="222px"
+                height="auto"
+                align="center"></mj-image>
+     </mj-column>
+    </mj-section>
+		 <mj-section background-color="#fff" border="30px solid #e3e3e3" border-top="none">
+    <mj-column>
+<mj-text font-size="40px" padding="0"> &nbsp; </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

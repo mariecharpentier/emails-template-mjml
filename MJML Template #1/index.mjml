@@ -1,0 +1,159 @@
+<mjml>
+  <mj-head>
+    <mj-title>MJML Template #1</mj-title>
+    <mj-breakpoint width="600px" />
+      <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700" />
+    <mj-attributes>
+      <mj-section padding="0"/>
+			<mj-class name="title" font-family="Montserrat, Arial, sans-serif"/>
+			<mj-all font-family="Arial, sans-serif"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      ul{
+        Margin-left:25px;
+        Margin-top: 0px;
+        padding-left: 0;
+      }
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 600px) {
+      	body{
+      		width:100% !important; 
+      		min-width:100% !important;
+      	}
+				img{
+					max-width:100%;
+				}
+        ul{
+      	  padding: 0 15px !important;
+        }	
+        li {text-align:-webkit-match-parent; display:list-item;}
+      	.hide { 
+      		display: none !important;
+      	}
+      	.show { 
+      		max-height: none !important;  
+      		display: inline-table !important;  
+      		overflow : visible !important; 
+      		height: auto !important; 
+      	}
+      
+      	.resetAlignement{text-align: left !important; margin-left: 0 !important;margin-right: auto !important;}
+        .centerAlignement{text-align: center !important; margin-left: auto !important;margin-right: auto !important;}
+        .resetListAlignement{Margin-left: 30px !important;Margin-top: 15px !important;padding-right: 15px !important;}
+     
+      }
+    </mj-style>
+   
+  </mj-head>
+  <mj-body>
+    <mj-section 
+                padding="15px 0">
+    	<mj-column>
+      	<mj-text 
+                 align="center" 
+                 font-size="10px" 
+                 font-family="Arial" 
+                 padding="0"
+                 line-height="1.5">
+        	<a href="MIROIR">View the online version</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+         <mj-image 
+                 src="https://via.placeholder.com/120x120.png?text=logo" 
+                 width="139px" 
+                 height="auto" 
+                 alt="Logo"></mj-image>
+        <mj-text 
+                 mj-class="title"
+                 font-size="29px"
+                 font-weight="bold"
+                 align="center" 
+                 line-height="35px" 
+                 color="#e40aaa" 
+                 padding="10px 7px"
+                 padding-bottom="0">
+Title here
+          
+        </mj-text>
+           
+<mj-text font-size="12px" padding="0"> &nbsp; </mj-text>
+          
+        <mj-image 
+                 src="https://via.placeholder.com/500x300.png?" 
+                 width="503px" 
+                 height="auto" 
+                 alt="LCL"></mj-image>
+      </mj-column>
+    </mj-section>
+
+     <mj-section>
+      <mj-column>
+         <mj-text font-size="15px" padding="0"> &nbsp; </mj-text>
+       
+        <mj-text font-family="Arial"
+                 font-size="18px"
+                 align="center"
+                 line-height="1.3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+      
+         <mj-text font-family="Arial"
+                 font-size="18px"
+                 font-weight="bold"
+                 color="#e40aaa"
+                 align="center"
+                 line-height="1.2">Lorem ipsum</mj-text>
+       
+         <mj-text font-size="15px" padding="0"> &nbsp; </mj-text>
+
+     
+          <mj-button padding="0" background-color="transparent" href="#" align="center">
+      			<img src="https://via.placeholder.com/250x60.png?text=CTA" width="250px" height="auto" style="display:block;width:250px;" alt="Click here"/>
+    			</mj-button>
+        
+                <mj-text font-size="25px" padding="0"> &nbsp; </mj-text>
+
+       </mj-column>
+ </mj-section>
+           
+
+
+      
+		<mj-section padding-top="15px">
+		  <mj-column>
+        
+        <mj-text 
+								 padding-bottom="0"
+								 font-family="Arial"
+								 font-size="10px">(1) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mj-text>
+        <mj-text 
+								 padding-bottom="0"
+								 font-family="Arial"
+								 font-size="10px">(2) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mj-text>
+        
+         <mj-text
+								 padding-bottom="0"
+								 font-family="Arial"
+								 font-size="10px"
+                  font-weight="bold">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu <a href="DESABO" style="color:#000">click here</a>
+					</mj-text>
+				<mj-text padding-bottom="0"
+								 font-family="Arial"
+								 font-size="10px"
+                 line-height="1.2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mj-text>
+       
+        
+        <mj-text font-size="15px" padding="0"> &nbsp; </mj-text>
+
+			</mj-column>				
+		</mj-section>
+   
+        
+  <mj-include path="./footer.mjml" />   
+  </mj-body>
+</mjml>
+      

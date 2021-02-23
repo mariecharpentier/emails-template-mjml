@@ -1,0 +1,224 @@
+<mjml>
+  <mj-head>
+    <mj-title>MJML Template #2</mj-title>
+    <mj-breakpoint width="640px" />
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700"/>
+    <mj-attributes>
+      <mj-section padding="0"/>
+			<mj-all font-family="Open Sans, Arial, sans-serif"/>
+      <mj-class name="text" font-family="Open Sans, Arial, sans-serif"/>
+
+    </mj-attributes>
+    <mj-style inline="inline">
+      ul{
+        Margin-left:25px;
+        Margin-top: 0px;
+        padding-left: 0;
+      }
+    </mj-style>
+    <mj-style>
+      a[x-apple-data-detectors] {
+color	: inherit!important;
+text-decoration: none!important;
+font-size: inherit!important;
+font-family: inherit!important;
+font-weight: inherit!important;
+line-height: inherit!important;
+}
+
+      @media only screen and (max-width: 640px) {
+      	body{
+      		width:100% !important; 
+      		min-width:100% !important;
+      	}
+				img{
+					max-width:100%;
+				}
+        ul{
+      	  padding: 0 15px !important;
+        }	
+        li {text-align:-webkit-match-parent; display:list-item;}
+      	.hide { 
+      		display: none !important;
+      	}
+      	.show { 
+      		max-height: none !important;  
+      		display: inline-table !important;  
+      		overflow : visible !important; 
+      		height: auto !important; 
+      	}
+      
+      	.resetAlignement{text-align: left !important; margin-left: 0 !important;margin-right: auto !important;}
+        .centerAlignement{text-align: center !important; margin-left: auto !important;margin-right: auto !important;}
+        .resetListAlignement{Margin-left: 30px !important;Margin-top: 15px !important;padding-right: 15px !important;}
+        .w {width: 100% !important;max-width: 300px !important;}
+
+      }
+    </mj-style>
+    <!--[if gte mso 9]>
+    <style type="text/css">
+        li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}
+    </style>
+    <![endif]-->
+  </mj-head>
+  <mj-body width="640px">
+    <mj-section 
+                padding="15px 0">
+    	<mj-column>
+      	<mj-text 
+                 align="center" 
+                 font-size="12px" 
+                 font-family="Arial" 
+                 padding="0 20px"
+                 line-height="1.5">
+        	Preheader
+        </mj-text>
+          <mj-text 
+                 align="center" 
+                 font-size="11px" 
+                 font-family="Arial" 
+                 padding="0 20px"
+                 line-height="1.5">
+        	<a href="MIROIR">View online</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+
+  <mj-section>
+     <mj-column>
+          <mj-image 
+                    src="https://via.placeholder.com/640x300.png?text=Header" 
+                    alt="header."
+                    height="auto"
+                    width="640px"
+                    align="center"
+                    padding="0">
+          </mj-image>
+       <mj-button padding="0" background-color="#071694" href="#" align="center" color="#fff" border-radius="none" font-size="17px" font-family="Open Sans, Arial, sans-serif" mj-class="text" target="_blank" text-transform="uppercase">
+      			<b>Call-to-action</b>
+    		</mj-button>
+      </mj-column>
+    </mj-section>
+
+         
+         
+         
+<mj-section>
+    <mj-column>
+      <mj-text font-size="30px" padding="0"> &nbsp; </mj-text>  
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-weight="bold"
+               font-size="21px"
+               color="#071694"
+               align="left"
+               line-height="1.2">Lorem ipsum ?</mj-text>
+  		<mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="15px"
+               align="left"
+               line-height="1.2"><ul>
+        <li style="Margin-bottom:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+        </ul></mj-text>
+  </mj-column>
+</mj-section>    
+    
+    
+  <mj-section>
+    <mj-column>
+      <mj-text font-size="20px" padding="0"> &nbsp; </mj-text>      
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="18px"
+               font-weight="bold"
+               align="center"
+               line-height="1.2"
+               color="#4472de"
+               padding-top="5px">BENEFITS</mj-text>
+      </mj-column>   
+    </mj-section>
+    
+    <mj-section>
+    <mj-column background-color="#a9f5f9" width="25%">
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="15px"
+               text-transform="uppercase"
+               align="left"
+               line-height="1.2"
+               color="#4472de"
+               padding="15px 10px 15px 15px"><b>000&nbsp;<br class="hide">consultants </b><br>in France</mj-text>
+        <mj-text font-size="22px" padding="0"> &nbsp; </mj-text>      
+      </mj-column> 
+      <mj-column background-color="#61a5f7"  width="25%">
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="15px"
+               text-transform="uppercase"
+               align="left"
+               line-height="1.2"
+               color="#a9f5f9"
+               padding="15px 15px"><b>+ de 000&nbsp;<br class="hide">books</b><br>this year</mj-text>
+          <mj-text font-size="22px" padding="0"> &nbsp; </mj-text>      
+
+      </mj-column> 
+      <mj-column background-color="#a9f5f9"  width="25%">
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="15px"
+               text-transform="uppercase"
+               align="left"
+               line-height="1.2"
+               color="#4472de"
+               padding="15px 15px"><b>amazing<br class="hide"> products</b><br>For sure</mj-text>
+      <mj-text font-size="22px" padding="0"> &nbsp; </mj-text>      
+      </mj-column> 
+      <mj-column background-color="#61a5f7"  width="25%">
+      <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="15px"
+               text-transform="uppercase"
+               align="left"
+               line-height="1.2"
+               color="#a9f5f9"
+               padding="15px 15px"><b>Innovating<br>tools</b><br>for you</mj-text>
+        <mj-text font-size="22px" padding="0"> &nbsp; </mj-text>      
+      </mj-column> 
+    </mj-section>
+  
+  
+      
+      <mj-section>
+      <mj-column>
+         <mj-text font-size="30px" padding="0"> &nbsp; </mj-text>      
+        <mj-button  background-color="#071694" href="#" align="center" color="#fff" border-radius="none" font-size="17px" font-family="Open Sans, Arial, sans-serif" target="_blank" text-transform="uppercase" width="272px" mj-class="text">
+      			<b>call-to-action</b>
+    		</mj-button>
+        <mj-text font-size="20px" padding="0"> &nbsp; </mj-text>      
+        <mj-text font-family="Open Sans, Arial, sans-serif"
+               mj-class="text"
+               font-size="13px"
+               align="left"
+               line-height="1.2"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </i></mj-text>
+       <mj-text font-size="20px" padding="0"> &nbsp; </mj-text>      
+         <mj-image 
+                    src="https://via.placeholder.com/145x145.png?text=logo" 
+                    alt="logo"
+                    height="auto"
+                    width="145px"
+                    align="center"
+                    padding="0">
+          </mj-image>
+         <mj-text font-size="50px" padding="0"> &nbsp; </mj-text>  
+        
+        </mj-column>
+      </mj-section>
+    
+
+      
+      <mj-include path="./footer.mjml" />
+  </mj-body>
+</mjml>
+      

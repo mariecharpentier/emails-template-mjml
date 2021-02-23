@@ -1,0 +1,59 @@
+ <mj-section padding-bottom="50px">
+   <mj-column background-color="#c4c4c4" width="82%" vertical-align="middle">
+     <mj-text align="left" vertical-align="middle" padding="10px">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%" class="w">
+        <tbody><tr>
+           <td valign="top" align="center">
+           <table align="left" border="0" cellpadding="0" cellspacing="0" width="160" class="w" style="width:160px">
+              <tbody><tr>
+                  <td width="28" height="30px" align="left" valign="middle"><img src="img/tel.png" alt="Phone" style="width:28px;height:29px;vertical-align:middle;"></td>
+               <td align="left" height="30px" valign="middle">
+                 <span style="color:#003c38;text-decoration:none;font-family:Arial;font-size:13px;padding:0;line-height:29px;">&nbsp;&nbsp;<a href="tel:+33#" style="text-decoration:none;color:#071694">00 00 00 00 00</a></span>
+               </td>
+                 </tr>
+               </tbody></table>
+                  
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="190" class="w" style="width:190px">
+              <tbody><tr>
+                   <td width="30" height="30px" align="left" valign="middle"><img src="img/mail.png" alt="EMail" style="width:30px;height:29px;vertical-align:middle;"></td>
+               <td align="left" height="30px" valign="middle">
+                 <span style="color:#071694;text-decoration:none;font-family:Arial;font-size:13px;padding:0;line-height:29px;">&nbsp;&nbsp;<a href="mailto:#" style="text-decoration:none;color:#071694;">mail@mail.com</a></span>
+               </td>
+                 </tr>
+               </tbody></table>
+                  
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="120" class="w" style="width:120px">
+              <tbody><tr>
+             <td width="27" height="29px" align="left" valign="middle"><img src="img/web.png" alt="Website" style="width:29px;height:27px;vertical-align:middle;"></td>
+               <td align="left" height="30px" valign="middle">
+                 <span style="color:#071694;text-decoration:none;font-family:Arial;font-size:13px;padding:0;line-height:29px;">&nbsp;&nbsp;<a href="#" style="text-decoration:none;color:#071694;" target="_blank">www.web.io</a></span>
+               </td>
+                 </tr>
+               </tbody></table>
+               </td>
+             </tr>
+           </tbody>
+         </table>
+     </mj-text>
+   </mj-column>
+   <mj-column background-color="#071694" width="18%">
+     <mj-text align="center" vertical-align="middle" padding="10px 10px">
+       <table cellspacing="0" cellpadding="0" border="0" width="80px" align="center">
+         <tbody>
+           <tr align="center">
+             <td height="29px" valign="middle" style="padding: 0 5px;">
+               <a href="#" target="_blank">
+                 <img src="img/twitter.png" alt="Twitter" width="30" height="30" style="display:block;">
+               </a>
+             </td>
+             <td height="29px" valign="middle" style="padding: 0 5px;">
+               <a href="#" target="_blank">
+                 <img src="img/linkedin.png" alt="LinkedIn" width="30" height="30" style="display:block;">
+               </a>
+             </td>
+           </tr>
+         </tbody>
+       </table>
+     </mj-text>
+   </mj-column>
+ </mj-section>
